@@ -5,12 +5,26 @@
     <link>/post/</link>
       <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`©`, `2020`</copyright><lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>`©`, `2020`</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Posts</title>
       <link>/post/</link>
     </image>
+    
+    <item>
+      <title>Обновление сайта курса ПСОАП</title>
+      <link>/post/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B0%D0%B8%D1%82%D0%B0-%D0%BA%D1%83%D1%80%D1%81%D0%B0-%D0%BF%D1%81%D0%BE%D0%B0%D0%BF/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>/post/%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%81%D0%B0%D0%B8%D1%82%D0%B0-%D0%BA%D1%83%D1%80%D1%81%D0%B0-%D0%BF%D1%81%D0%BE%D0%B0%D0%BF/</guid>
+      <description>
+&lt;script src=&#34;2020-04-01-обновление-сайта-курса-псоап_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Сайт курса - &lt;a href=&#34;https://i2z1.github.io/PSOAP/&#34; class=&#34;uri&#34;&gt;https://i2z1.github.io/PSOAP/&lt;/a&gt;, всю информацию по лабораторным и дополнительным материалам смотрите тут. Постепенно буду обновлять и дополнять его.&lt;/p&gt;
+&lt;p&gt;Всем крепкого здоровья!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Обновление ЛР2</title>
@@ -21,7 +35,7 @@
 &lt;script src=&#34;2020-03-28-обновление-лр2_files/header-attrs/header-attrs.js&#34;&gt;&lt;/script&gt;
 
 
-&lt;p&gt;К заданию добавлены примечания, которые могут прояснить некоторые возможные вопросы по &lt;a href=&#34;https://github.com/i2z1/PSOAP/blob/master/Lab2.md&#34;&gt;лабораторной работе №2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;К заданию добавлены примечания, которые могут прояснить некоторые возможные вопросы по &lt;a href=&#34;https://i2z1.github.io/PSOAP/intro.html&#34;&gt;лабораторной работе №2&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
