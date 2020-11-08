@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<<<<<<< HEAD
   
   <sitemap>
     <loc>https://i2z1.github.io/en/sitemap.xml</loc>
@@ -12,25 +11,6 @@
   <sitemap>
     <loc>https://i2z1.github.io/ru/sitemap.xml</loc>
     
-      <lastmod>2020-04-29T15:59:54+03:00</lastmod>
-    
   </sitemap>
   
-=======
-	
-	<sitemap>
-	   	<loc>https://i2z1.github.io/en/sitemap.xml</loc>
-		
-	   	<lastmod>2020-04-29T16:08:03+03:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://i2z1.github.io/ru/sitemap.xml</loc>
-		
-	   	<lastmod>2020-04-29T15:59:54+03:00</lastmod>
-		
-	</sitemap>
-	
->>>>>>> 7ca98183150ef93c9dd426ab46dd4aced3d9fd3f
 </sitemapindex>

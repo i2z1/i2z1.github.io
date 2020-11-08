@@ -1,46 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>I2z1</title>
+    <title>I2z1 personal site</title>
     <link>https://i2z1.github.io/</link>
       <atom:link href="https://i2z1.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>I2z1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru</language><copyright>© 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 15:59:54 +0300</lastBuildDate>
+    <description>I2z1 personal site</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 15:59:54 +0300</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>I2z1</title>
+      <url>https://i2z1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>I2z1 personal site</title>
       <link>https://i2z1.github.io/</link>
     </image>
     
     <item>
-      <title>Обновление материалов ПСОАП</title>
+      <title>PSOAP Course Update</title>
       <link>https://i2z1.github.io/post/2020-04-29-psoap-course-update/</link>
       <pubDate>Wed, 29 Apr 2020 15:59:54 +0300</pubDate>
       <guid>https://i2z1.github.io/post/2020-04-29-psoap-course-update/</guid>
-      <description>&lt;p&gt;Обновлены материалы по предоставлению отчетности: использовании &lt;code&gt;git&lt;/code&gt;, структуре репозитория. Ссылка 
-&lt;a href=&#34;https://i2z1.github.io/PSOAP/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BE%D0%B2.html#%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;Git usage recomendations &lt;a href=&#34;https://i2z1.github.io/PSOAP/%D0%BE%D1%84%D0%BE%D1%80%D0%BC%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BE%D0%B2.html#%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BE%D1%82%D1%87%D0%B5%D1%82%D0%BD%D0%BE%D1%81%D1%82%D0%B8&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;added&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Обновление материалов по ПСОАП</title>
+      <title>Added Lab1 Walkthrough With R</title>
       <link>https://i2z1.github.io/post/2020-04-09-added-lab1-walkthrough-with-r/</link>
       <pubDate>Thu, 09 Apr 2020 17:47:14 +0300</pubDate>
       <guid>https://i2z1.github.io/post/2020-04-09-added-lab1-walkthrough-with-r/</guid>
-      <description>&lt;p&gt;Добавлены материалы и разбор 
-&lt;a href=&#34;https://i2z1.github.io/PSOAP/%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%B8-%D1%81%D0%B1%D0%BE%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;лабораторной работы №1&lt;/a&gt; !&lt;/p&gt;
+      <description>&lt;p&gt;PSOAP course site has been updated!
+&lt;a href=&#34;https://i2z1.github.io/PSOAP/%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D1%8B-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8-%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%B8%D1%81%D0%BA%D0%B0-%D0%B8-%D1%81%D0%B1%D0%BE%D1%80%D0%B0-%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%B8-%D0%B2-%D1%81%D0%B5%D1%82%D0%B8-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lab1 walkthrough added&lt;/a&gt; !&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Обновление сайта курса ПСОАП</title>
+      <title>Psoap Course Update</title>
       <link>https://i2z1.github.io/post/2020-04-02-psoap-course-update/</link>
       <pubDate>Thu, 02 Apr 2020 19:56:50 +0300</pubDate>
       <guid>https://i2z1.github.io/post/2020-04-02-psoap-course-update/</guid>
-      <description>&lt;p&gt;Сайт курса - 
-&lt;a href=&#34;https://i2z1.github.io/PSOAP/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://i2z1.github.io/PSOAP&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Всю информацию по курсу, включая задания на лабораторные работы и дополнительные материалы, постепенно буду обновлять и дополнять.&lt;/p&gt;
-&lt;p&gt;Всем крепкого здоровья!&lt;/p&gt;
+      <description>&lt;p&gt;PSOAP course site has updated!
+All course content such as additional materails, cheetsheats, lab tasks and lectures will be posted &lt;a href=&#34;https://i2z1.github.io/PSOAP&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

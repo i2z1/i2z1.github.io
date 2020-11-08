@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | I2z1</title>
+    <title>Authors | I2z1 personal site</title>
     <link>https://i2z1.github.io/authors/</link>
       <atom:link href="https://i2z1.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>ru</language><copyright>© 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 15:59:54 +0300</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 29 Apr 2020 15:59:54 +0300</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://i2z1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Authors</title>
       <link>https://i2z1.github.io/authors/</link>
     </image>
     
-<<<<<<< HEAD
-=======
-    <item>
-      <title>i2z1</title>
-      <link>https://i2z1.github.io/authors/i2z1/</link>
-      <pubDate>Wed, 29 Apr 2020 15:59:54 +0300</pubDate>
-      <guid>https://i2z1.github.io/authors/i2z1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://i2z1.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://i2z1.github.io/authors/admin/</guid>
-      <description></description>
-    </item>
-    
->>>>>>> 7ca98183150ef93c9dd426ab46dd4aced3d9fd3f
   </channel>
 </rss>
