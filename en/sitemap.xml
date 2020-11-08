@@ -20,6 +20,16 @@
   <url>
     <loc>https://i2z1.github.io/author/i2z1/</loc>
     <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/ru/author/i2z1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/author/i2z1/"
+                />
   </url>
   
   <url>
@@ -55,16 +65,46 @@
   <url>
     <loc>https://i2z1.github.io/post/2020-04-29-psoap-course-update/</loc>
     <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/ru/post/2020-04-29-psoap-course-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/post/2020-04-29-psoap-course-update/"
+                />
   </url>
   
   <url>
     <loc>https://i2z1.github.io/post/2020-04-09-added-lab1-walkthrough-with-r/</loc>
     <lastmod>2020-04-09T17:47:14+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/ru/post/2020-04-09-added-lab1-walkthrough-with-r/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/post/2020-04-09-added-lab1-walkthrough-with-r/"
+                />
   </url>
   
   <url>
     <loc>https://i2z1.github.io/post/2020-04-02-psoap-course-update/</loc>
     <lastmod>2020-04-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/ru/post/2020-04-02-psoap-course-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/post/2020-04-02-psoap-course-update/"
+                />
   </url>
   
   <url>
