@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>radio | I2z1</title>
+    <link>https://i2z1.github.io/category/radio/</link>
+      <atom:link href="https://i2z1.github.io/category/radio/index.xml" rel="self" type="application/rss+xml" />
+    <description>radio</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><copyright>© 2020</copyright><lastBuildDate>Thu, 02 Apr 2020 19:56:50 +0300</lastBuildDate>
+    <image>
+      <url>https://i2z1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>radio</title>
+      <link>https://i2z1.github.io/category/radio/</link>
+    </image>
+    
+    <item>
+      <title>WiresXL</title>
+      <link>https://i2z1.github.io/project/2020-11-9-wiresxl/</link>
+      <pubDate>Thu, 02 Apr 2020 19:56:50 +0300</pubDate>
+      <guid>https://i2z1.github.io/project/2020-11-9-wiresxl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

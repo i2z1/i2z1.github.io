@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://i2z1.github.io/authors/</loc>
-    <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://i2z1.github.io/</loc>
-    <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,22 +93,8 @@
   </url>
   
   <url>
-    <loc>https://i2z1.github.io/post/2020-04-02-psoap-course-update/</loc>
-    <lastmod>2020-04-02T19:56:50+03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://i2z1.github.io/en/post/2020-04-02-psoap-course-update/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://i2z1.github.io/post/2020-04-02-psoap-course-update/"
-                />
-  </url>
-  
-  <url>
     <loc>https://i2z1.github.io/categories/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -123,6 +109,7 @@
   
   <url>
     <loc>https://i2z1.github.io/author/i2z1/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -132,6 +119,96 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://i2z1.github.io/author/i2z1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/project/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/tag/radio/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/tag/radio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/tag/radio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/category/radio/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/category/radio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/category/radio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/tags/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/project/2020-11-9-wiresxl/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/project/2020-11-9-wiresxl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/project/2020-11-9-wiresxl/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/post/2020-04-02-psoap-course-update/</loc>
+    <lastmod>2020-04-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/post/2020-04-02-psoap-course-update/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/post/2020-04-02-psoap-course-update/"
                 />
   </url>
   
@@ -174,20 +251,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://i2z1.github.io/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://i2z1.github.io/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://i2z1.github.io/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://i2z1.github.io/tags/"
                 />
   </url>
   

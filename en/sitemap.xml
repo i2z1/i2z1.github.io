@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://i2z1.github.io/en/authors/</loc>
-    <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://i2z1.github.io/en/</loc>
-    <lastmod>2020-04-29T15:59:54+03:00</lastmod>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -93,6 +93,51 @@
   </url>
   
   <url>
+    <loc>https://i2z1.github.io/en/categories/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/en/author/i2z1/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/author/i2z1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/author/i2z1/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/en/project/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/project/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/project/"
+                />
+  </url>
+  
+  <url>
     <loc>https://i2z1.github.io/en/post/2020-04-02-psoap-course-update/</loc>
     <lastmod>2020-04-02T19:56:50+03:00</lastmod>
     <xhtml:link
@@ -108,30 +153,62 @@
   </url>
   
   <url>
-    <loc>https://i2z1.github.io/en/categories/</loc>
+    <loc>https://i2z1.github.io/en/tag/radio/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://i2z1.github.io/categories/"
+                href="https://i2z1.github.io/tag/radio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://i2z1.github.io/en/categories/"
+                href="https://i2z1.github.io/en/tag/radio/"
                 />
   </url>
   
   <url>
-    <loc>https://i2z1.github.io/en/author/i2z1/</loc>
+    <loc>https://i2z1.github.io/en/category/radio/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="https://i2z1.github.io/author/i2z1/"
+                href="https://i2z1.github.io/category/radio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://i2z1.github.io/en/author/i2z1/"
+                href="https://i2z1.github.io/en/category/radio/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/en/tags/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://i2z1.github.io/en/project/2020-11-9-wiresxl/</loc>
+    <lastmod>2020-11-02T19:56:50+03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://i2z1.github.io/project/2020-11-9-wiresxl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://i2z1.github.io/en/project/2020-11-9-wiresxl/"
                 />
   </url>
   
@@ -174,20 +251,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://i2z1.github.io/en/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://i2z1.github.io/en/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://i2z1.github.io/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://i2z1.github.io/en/tags/"
                 />
   </url>
   
