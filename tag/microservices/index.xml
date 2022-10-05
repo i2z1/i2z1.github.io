@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>microservices | I2Z1</title>
+    <link>https://i2z1.github.io/tag/microservices/</link>
+      <atom:link href="https://i2z1.github.io/tag/microservices/index.xml" rel="self" type="application/rss+xml" />
+    <description>microservices</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><copyright>© 2022 I2z1</copyright><lastBuildDate>Thu, 27 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://i2z1.github.io/media/icon_hu48e3bcdbb3283ad124017c2ad95288d8_593271_512x512_fill_lanczos_center_3.png</url>
+      <title>microservices</title>
+      <link>https://i2z1.github.io/tag/microservices/</link>
+    </image>
+    
+    <item>
+      <title>WiresXL</title>
+      <link>https://i2z1.github.io/project/wiresxl/</link>
+      <pubDate>Thu, 27 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://i2z1.github.io/project/wiresxl/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

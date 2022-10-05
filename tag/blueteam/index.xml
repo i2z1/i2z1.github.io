@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BlueTeam | I2Z1</title>
+    <link>https://i2z1.github.io/tag/blueteam/</link>
+      <atom:link href="https://i2z1.github.io/tag/blueteam/index.xml" rel="self" type="application/rss+xml" />
+    <description>BlueTeam</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><copyright>© 2022 I2z1</copyright><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://i2z1.github.io/media/icon_hu48e3bcdbb3283ad124017c2ad95288d8_593271_512x512_fill_lanczos_center_3.png</url>
+      <title>BlueTeam</title>
+      <link>https://i2z1.github.io/tag/blueteam/</link>
+    </image>
+    
+    <item>
+      <title>Защита информации от несанкционированного доступа</title>
+      <link>https://i2z1.github.io/courses/zinsd/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://i2z1.github.io/courses/zinsd/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 2-3 часа в неделю, 7 семестр&lt;/p&gt;
+&lt;h2 id=&#34;рекомендуемые-источники&#34;&gt;Рекомендуемые источники&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://thehelk.com/intro.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Введение в HELK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habr.com/en/post/423405/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Изучаем Adversarial Tactics, Techniques &amp;amp; Common Knowledge (ATT@CK). Enterprise Tactics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habr.com/en/company/dsec/blog/460097/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;The Matrix has you: обзор проектов, использующих MITRE ATT&amp;amp;CK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cyberwardog.blogspot.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cyber Wardog Lab by Roberto Rodriguez&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hrbrmstr/2021-09-13-cdatao-data-driven-security-resources/blob/batman/data-driven-security.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Data Driven Security&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;материалы-к-практическим-занятиям&#34;&gt;Материалы к практическим занятиям&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/i2z1/Report_template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;План отчета&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Шпаргалка по Docker&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;git&#34;&gt;Git&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://learngitbranching.js.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git песочница LearnGitBranching&lt;/a&gt; &amp;ndash; от азов к продвинутому использованию git&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;cyber-threat-intelligence&#34;&gt;Cyber Threat Intelligence&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.recordedfuture.com/threat-intelligence/?__cf_chl_jschl_tk__=pmd_VPoOSBGJ9xkVlWi49Ovupm3s.8gDtbWHQGf3MjQJaVI-1635323900-0-gqNtZGzNAmWjcnBszQhl&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Статья по общим подходам CTI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://encyclopedia.kaspersky.ru/glossary/indicator-of-compromise-ioc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Немного про индикаторы компрометации от Kaspersky&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/SigmaHQ/sigma&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sigma&lt;/a&gt; и еще &lt;a href=&#34;https://habr.com/en/company/pt/blog/510480/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;немного про неё&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Threat Intelligence Platforms (TIP) &amp;ndash; платформы комплексного анализа собираемой информации об угрозах ИБ
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.misp-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MISP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/OpenCTI-Platform/opencti&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenCTI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://yeti-platform.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;YETI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;мониторинг&#34;&gt;Мониторинг&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.elastic.co/what-is/elk-stack&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELK&lt;/a&gt; &amp;ndash; Elasticsearch, Logstash, Kibana&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Cyb3rWard0g/HELK&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hunting ELK&lt;/a&gt; &amp;ndash; специализированная версия ELK от известного threathuntera &lt;a href=&#34;https://blog.openthreatresearch.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Cyb3rWard0g&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Все что касается анализа трафика &amp;ndash; &lt;a href=&#34;https://zeek.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zeek&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    
+    <item>
+      <title>Програмирование средств обнаружения и защиты от вредоносных программ</title>
+      <link>https://i2z1.github.io/courses/psoz/</link>
+      <pubDate>Sat, 27 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://i2z1.github.io/courses/psoz/</guid>
+      <description>&lt;p&gt;
+  &lt;i class=&#34;fas fa-clock  pr-1 fa-fw&#34;&gt;&lt;/i&gt; 4 часа в неделю, 7 семестр&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

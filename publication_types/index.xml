@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publication_types | I2z1</title>
+    <title>Publication_types | I2Z1</title>
     <link>https://i2z1.github.io/publication_types/</link>
       <atom:link href="https://i2z1.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru</language><copyright>© 2021</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>ru-RU</language><copyright>© 2022 I2z1</copyright>
     <image>
-      <url>https://i2z1.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://i2z1.github.io/media/icon_hu48e3bcdbb3283ad124017c2ad95288d8_593271_512x512_fill_lanczos_center_3.png</url>
       <title>Publication_types</title>
       <link>https://i2z1.github.io/publication_types/</link>
     </image>
