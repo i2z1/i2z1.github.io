@@ -1,18 +1,63 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://i2z1.github.io/en/sitemap.xml</loc>
-    
-      <lastmod>2021-05-27T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://i2z1.github.io/ru/sitemap.xml</loc>
-    
-      <lastmod>2022-10-05T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-</sitemapindex>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://i2z1.github.io/posts/2021-10-20-рекомендации-к-практическим-заданиям/index.html</loc>
+    <lastmod>2022-11-02T12:29:42.281Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/posts/202-09-21-установка-R/index.html</loc>
+    <lastmod>2022-11-02T12:29:42.961Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/posts.html</loc>
+    <lastmod>2022-11-02T12:29:43.309Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses.html</loc>
+    <lastmod>2022-11-02T12:29:43.701Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses/MLCTH/index.html</loc>
+    <lastmod>2022-11-02T12:29:44.049Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses/ZINSD/index.html</loc>
+    <lastmod>2022-11-02T12:29:44.401Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses/IAMCTH/index.html</loc>
+    <lastmod>2022-11-02T12:29:44.889Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses/PSOAP/index.html</loc>
+    <lastmod>2022-11-02T12:29:45.322Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/courses/PSOZ/index.html</loc>
+    <lastmod>2022-11-02T12:29:45.646Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/about.html</loc>
+    <lastmod>2022-11-02T12:29:45.978Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/project/telegram_d2csec/index.html</loc>
+    <lastmod>2022-11-02T12:29:46.346Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/project/DDCSLab/index.html</loc>
+    <lastmod>2022-11-02T12:29:46.702Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/project/wiresxl/index.html</loc>
+    <lastmod>2022-11-02T12:29:46.998Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/index.html</loc>
+    <lastmod>2022-11-02T12:29:47.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://i2z1.github.io/projects.html</loc>
+    <lastmod>2022-11-02T12:29:47.690Z</lastmod>
+  </url>
+</urlset>

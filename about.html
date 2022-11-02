@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Data-driven подходы к решению проблем в мире информационных технологий">
 
-<title>I2Z1 personal website</title>
+<title>I2Z1 - Обо мне</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,12 +30,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -61,40 +57,9 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -126,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Блог</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link active" href="./about.html" aria-current="page">
  <span class="menu-text">Обо мне</span></a>
   </li>  
 </ul>
@@ -148,40 +113,70 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
-    <div class="quarto-title column-body">
-      <h1 class="title"><span class="math inline">\(I^2Z_1\)</span></h1>
-                  <div>
-        <div class="description">
-          Data-driven подходы к решению проблем в мире информационных технологий
-        </div>
-      </div>
-                </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
+    
 <!-- main -->
+<div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="img/avatar.jpg" class="about-image
+  rounded " style="width: 20em;">
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Обо мне</h1>
+</div>
+<div class="quarto-title-meta">
+  </div>
+</header>
+    <div class="about-links">
+  <a href="https://github.com/i2z1" class="about-link">
+    <i class="bi bi-github"></i>
+     <span class="about-link-text">Github</span>
+  </a>
+  <a href="https://gitlab.com/i2z1" class="about-link">
+    <i class="bi bi-git"></i>
+     <span class="about-link-text">Gitlab</span>
+  </a>
+  <a href="https://mirea.ru" class="about-link">
+    <i class="bi bi-mortarboard-fill"></i>
+     <span class="about-link-text">МИРЭА</span>
+  </a>
+  <a href="mailto:i2z1@yandex.ru" class="about-link">
+    <i class="bi bi-envelope-paper"></i>
+     <span class="about-link-text">E-mail</span>
+  </a>
+  <a href="https://t.me/Ivv011" class="about-link">
+    <i class="bi bi-telegram"></i>
+     <span class="about-link-text">Telegram</span>
+  </a>
+</div>
+  </div>
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+<p>Доцент кафедры</p>
+<p><a href="https://mirea.ru">РТУ МИРЭА</a></p>
+<section id="интересы" class="level2">
+<h2 data-anchor-id="интересы">Интересы</h2>
+<ul>
+<li>Самоорганизующиеся гомогенные системы</li>
+<li>Threat Hunting</li>
+<li>R/Shiny</li>
+<li>k8s</li>
+<li>Open Source</li>
+<li>Linux</li>
+</ul>
+</section>
+<section id="образование" class="level2">
+<h2 data-anchor-id="образование">Образование</h2>
+<ul>
+<li>РТУ МИРЭА – Кандидат технических наук, 2014</li>
+</ul>
 
 
-
-
-
-
-
-
-
+</section>
+</main></div>
+</div>
+ <!-- /main -->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
@@ -218,13 +213,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -331,88 +319,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Telegram,Threat Hunt,Cyber Threat Intelligence,Воспроизводимая аналитика,R,Tidyverse,BigData" data-listing-date-sort="1667163600000" data-listing-file-modified-sort="1667238013372" data-listing-reading-time-sort="0.045">
-<a href="./project/telegram_d2csec/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./project/telegram_d2csec/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Сообщество Data Driven CyberSec
-</h5>
-<div class="card-text listing-description">
-Data Driven CyberSec
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-i2z1@yandex.ru
-</div>
-<div class="listing-date">
-Oct 31, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Threat Hunt,Cyber Threat Intelligence,Воспроизводимая аналитика,R,Tidyverse,BigData" data-listing-date-sort="1663534800000" data-listing-file-modified-sort="1667237870603" data-listing-reading-time-sort="0.925">
-<a href="./project/DDCSLab/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./project/DDCSLab/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Лаборатория доказательной кибербезопасности
-</h5>
-<div class="card-text listing-description">
-https://d2cybersec.gitlab.io/
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-i2z1@yandex.ru
-</div>
-<div class="listing-date">
-Sep 19, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="R,Python,ham radio,microservices" data-listing-date-sort="1622062800000" data-listing-file-modified-sort="1667389363125" data-listing-reading-time-sort="0.005">
-<a href="./project/wiresxl/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./project/wiresxl/featured.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-WiresXL
-</h5>
-<div class="card-text listing-description">
-https://i2z1.shinyapps.io/WiresXL/
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-i2z1@yandex.ru
-</div>
-<div class="listing-date">
-May 27, 2021
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></div> <!-- /content -->
+</div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Copyright 2022, i2z1@yandex.ru</div>   

@@ -1,0 +1,35 @@
+[
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/posts/2021-10-20-рекомендации-к-практическим-заданиям/index.html",
+      "/posts/202-09-21-установка-R/index.html"
+    ]
+  },
+  {
+    "listing": "/courses.html",
+    "items": [
+      "/courses/IAMCTH/index.html",
+      "/courses/MLCTH/index.html",
+      "/courses/PSOAP/index.html",
+      "/courses/ZINSD/index.html",
+      "/courses/PSOZ/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/project/telegram_d2csec/index.html",
+      "/project/DDCSLab/index.html",
+      "/project/wiresxl/index.html"
+    ]
+  },
+  {
+    "listing": "/projects.html",
+    "items": [
+      "/project/telegram_d2csec/index.html",
+      "/project/DDCSLab/index.html",
+      "/project/wiresxl/index.html"
+    ]
+  }
+]

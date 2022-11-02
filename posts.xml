@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>I2Z1</title>
+<link>https://i2z1.github.io/posts.html</link>
+<atom:link href="https://i2z1.github.io/posts.xml" rel="self" type="application/rss+xml"/>
+<description>I2Z1</description>
+<image>
+<url>https://i2z1.github.io/img/avatar.jpg</url>
+<title>I2Z1</title>
+<link>https://i2z1.github.io/posts.html</link>
+</image>
+<generator>quarto-1.2.253</generator>
+<lastBuildDate>Tue, 20 Sep 2022 21:00:00 GMT</lastBuildDate>
+<item>
+  <title>Установка R и RStudio IDE на Astra Linux</title>
+  <dc:creator>i2z1@yandex.ru</dc:creator>
+  <link>https://i2z1.github.io/posts/202-09-21-установка-R/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Развертывание программного окружения анализа данных и машинного обучения на базе отечественной ОС Astra Linux 1.7</p>
+<section id="введение" class="level2">
+<h2 class="anchored" data-anchor-id="введение">Введение</h2>
+<p>Язык программирования R – мощное средство анализа данных и организации машинного обучения, в том числе используя глубокое обучение с популярными фреймворками TensorFlow и Keras. Проблема заключается в том, что в родном репозитории Astra Linux 1.7 на момент написания этого поста содержится интерпретатор языка R версии 3.5.1, что сильно ограничивает использование современных пакетов и паттернов программирования.</p>
+<p>Развертвание программного окружения предусматривает несколько этапов: 1. Установка интерпретатора языка программирования R 2. Установка интегрированной среды разработки RStudio IDE 3. Установка необходимых нам пакетов R</p>
+<p>Установку будем проводить на ОС Astra Linux 1.7 Базовая (версия 1.7.2)</p>
+</section>
+<section id="установка-интерпретатора-языка-программирования-r" class="level2">
+<h2 class="anchored" data-anchor-id="установка-интерпретатора-языка-программирования-r">Установка интерпретатора языка программирования R</h2>
+<p>Специализированных инструкций по Astra Linux в Интернете не много, однако учитывая что Astra Linux версии 1.7 основана на дистрибутиве Debian 10 (“buster”), будем руководствоваться инструкциями под эту ОС.</p>
+<p>Для начала включим возможность подключения сторонних репозиториев для Debian в нашем Astra Linux.</p>
+<p>Обновим список доступных для установки пакетов:</p>
+<pre><code>sudo apt update</code></pre>
+<p>Установим пакеты <code>apt-transport-https</code> и <code>ca-certificates</code> командой:</p>
+<pre><code>sudo apt install apt-transport-https ca-certificates</code></pre>
+<p>Установим пакет <code>debian-archive-keyring</code>:</p>
+<pre><code>sudo apt install debian-archive-keyring</code></pre>
+<p>Теперь идем на сайт R CRAN и следуем <a href="https://cran.r-project.org/bin/linux/debian/">инструкциям для Debian 10 Buster</a></p>
+<ol type="1">
+<li>Редактируем <code>/etc/apt/sources.list</code>:</li>
+</ol>
+<pre><code>sudo nano /etc/apt/sources.list</code></pre>
+<ol start="2" type="1">
+<li>добавляем внизу конфигурационного файла строку</li>
+</ol>
+<pre><code>deb http://cloud.r-project.org/bin/linux/debian buster-cran40/</code></pre>
+<ol start="3" type="1">
+<li>Импортируем ключи, которыми подписываются пакеты в добавленном нами репозитории</li>
+</ol>
+<pre><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'</code></pre>
+<ol start="4" type="1">
+<li>Устанавливаем R 4.2.1</li>
+</ol>
+<pre><code>sudo apt update
+sudo apt install -t buster-cran40 r-base</code></pre>
+</section>
+<section id="установка-интегрированной-среды-разработки-rstudio-ide" class="level2">
+<h2 class="anchored" data-anchor-id="установка-интегрированной-среды-разработки-rstudio-ide">Установка интегрированной среды разработки RStudio IDE</h2>
+<ol type="1">
+<li>Переходим на сайт компании разработчика и скачиваем установочный <code>deb</code> пакет</li>
+</ol>
+<p><a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a></p>
+<p>Нас интересует версия для <code>Ubuntu 18+/Debian 10+</code>.</p>
+<ol start="2" type="1">
+<li>Устанавливаем скачанный пакет:</li>
+</ol>
+<pre><code>sudo dpkg -i &lt;имя пакета&gt;</code></pre>
+<p>например</p>
+<pre><code>sudo dpkg -i ./rstudio-2022.07.1-554-amd64.deb</code></pre>
+<p>Скорее всего, установка завершится с ошибками из-за отсутсвия зависимостей пакета в системе. Установим их командой</p>
+<pre><code>sudo apt --fix-broken install</code></pre>
+</section>
+<section id="установка-необходимых-нам-пакетов-r" class="level2">
+<h2 class="anchored" data-anchor-id="установка-необходимых-нам-пакетов-r">Установка необходимых нам пакетов R</h2>
+<ol type="1">
+<li>Установим системные библиотеки, от которых скорее всего будут зависеть используемые нами пакеты (имеется в виду <code>tideverse</code>)</li>
+</ol>
+<pre><code>sudo apt install libssl-dev libxml2-dev libcurl4-openssl-dev</code></pre>
+<ol start="2" type="1">
+<li>Заходим в RStudio IDE и устанавливаем пакеты либо через <strong>консоль R</strong></li>
+</ol>
+<pre><code>install.packages("tidyverse")</code></pre>
+<p>либо через графическое окно управления пакетами (“Packages”) в Rstudio IDE.</p>
+<p>Готово!</p>
+
+
+</section>
+
+ ]]></description>
+  <category>R</category>
+  <category>Linux</category>
+  <category>Astra Linux</category>
+  <guid>https://i2z1.github.io/posts/202-09-21-установка-R/index.html</guid>
+  <pubDate>Tue, 20 Sep 2022 21:00:00 GMT</pubDate>
+  <media:content url="https://i2z1.github.io/posts/202-09-21-установка-R/featured.png" medium="image" type="image/png" height="25" width="144"/>
+</item>
+<item>
+  <title>Оформление отчетов</title>
+  <dc:creator>i2z1@yandex.ru</dc:creator>
+  <link>https://i2z1.github.io/posts/2021-10-20-рекомендации-к-практическим-заданиям/index.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Методические рекомендации к оформлению отчетов по практическим и лабораторным работам</p>
+<section id="общие-требования" class="level2">
+<h2 class="anchored" data-anchor-id="общие-требования">Общие требования</h2>
+<ol type="1">
+<li>Результаты практических и лабораторных работ выполняются в электронном виде с с использованием сервиса <a href="https://gitlab.com">Gitlab</a>.</li>
+<li>Репозиторий должен быть либо публично доступным, либо закрытым, но с обеспечением доступа к нему на чтение и создание <code>issues</code> пользователя преподавателя <em>i2z1</em></li>
+<li>Конечный результат, который представляется на проверку должен находиться на ветке <code>main</code> или <code>master</code></li>
+</ol>
+</section>
+<section id="структура" class="level2">
+<h2 class="anchored" data-anchor-id="структура">Структура</h2>
+<ol start="4" type="1">
+<li>Структура репозитория представлена <a href="https://github.com/i2z1/Report_template">здесь</a></li>
+<li>Отчет оформляется с использованием языка разметки <a href="https://ru.wikipedia.org/wiki/Markdown">Markdown</a> или <a href="https://rmarkdown.rstudio.com/">Rmarkdown</a></li>
+<li>Сам отчет должен находиться в папке лабораторной или практической работы и называться <code>README.md</code> в случае использования <a href="https://ru.wikipedia.org/wiki/Markdown">Markdown</a> и <code>README.Rmd</code> в случае использования <a href="https://rmarkdown.rstudio.com/">Rmarkdown</a> соответственно.</li>
+</ol>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Если Вы идете #в-ногу-со-временем-и-даже-over-the-edge, можете использовать формат <a href="https://quarto.org/">Quarto</a></p>
+</div>
+</div>
+<p>Хорошо структурированный и оформленный отчет подчеркивает уровень выполненной работы, глубину детальной проработки темы Автором и свободу владения и инструментами и материалом!</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Обратите внимание!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>В markdown:</p>
+<ul>
+<li>может быть только 1 заголовок первого уровня (символ <code>#</code>)</li>
+<li>Каждый элемент отделяется от другого, как минимум, 1 пустой строкой</li>
+</ul>
+</div>
+</div>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode md code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><span class="fu" style="color: #4758AB;"># Один единственный заголовок первого уровня</span></span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="fu" style="color: #4758AB;">## Заголовок 1</span></span>
+<span id="cb1-4"></span>
+<span id="cb1-5">Текст 1</span>
+<span id="cb1-6">Текст 1</span>
+<span id="cb1-7">Текст 1</span>
+<span id="cb1-8"></span>
+<span id="cb1-9"><span class="fu" style="color: #4758AB;">## Заголовок 2</span></span>
+<span id="cb1-10"></span>
+<span id="cb1-11">Текст 2</span>
+<span id="cb1-12">Текст 2</span>
+<span id="cb1-13">Текст 2</span></code></pre></div>
+<ul>
+<li>программный код выделяется одним или тремя апострофами “`” (часто, клавиша ё в английской раскладке) – <a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code">пример на Github</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Threat Hunt</category>
+  <category>Cyber Threat Intelligence</category>
+  <category>Техническая аналитика</category>
+  <category>R</category>
+  <category>Tidyverse</category>
+  <guid>https://i2z1.github.io/posts/2021-10-20-рекомендации-к-практическим-заданиям/index.html</guid>
+  <pubDate>Tue, 19 Oct 2021 21:00:00 GMT</pubDate>
+  <media:content url="https://i2z1.github.io/posts/2021-10-20-рекомендации-к-практическим-заданиям/featured.png" medium="image" type="image/png" height="123" width="144"/>
+</item>
+</channel>
+</rss>

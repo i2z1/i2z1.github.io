@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="i2z1@yandex.ru">
-<meta name="dcterms.date" content="2021-05-27">
+<meta name="dcterms.date" content="2022-09-21">
 
-<title>I2Z1 - WiresXL</title>
+<title>I2Z1 - Установка R и RStudio IDE на Astra Linux</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,7 +65,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,52 +116,127 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Установка R и RStudio IDE на Astra Linux</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">R</div>
+                <div class="quarto-category">Linux</div>
+                <div class="quarto-category">Astra Linux</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>i2z1@yandex.ru </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 21, 2022</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">WiresXL</h1>
-<p class="subtitle lead">Amateur radio situational awareness framework.</p>
-  <div class="quarto-categories">
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Python</div>
-    <div class="quarto-category">ham radio</div>
-    <div class="quarto-category">microservices</div>
-  </div>
-  </div>
-
-
-
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>i2z1@yandex.ru </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">May 27, 2021</p>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#введение" id="toc-введение" class="nav-link active" data-scroll-target="#введение">Введение</a></li>
+  <li><a href="#установка-интерпретатора-языка-программирования-r" id="toc-установка-интерпретатора-языка-программирования-r" class="nav-link" data-scroll-target="#установка-интерпретатора-языка-программирования-r">Установка интерпретатора языка программирования R</a></li>
+  <li><a href="#установка-интегрированной-среды-разработки-rstudio-ide" id="toc-установка-интегрированной-среды-разработки-rstudio-ide" class="nav-link" data-scroll-target="#установка-интегрированной-среды-разработки-rstudio-ide">Установка интегрированной среды разработки RStudio IDE</a></li>
+  <li><a href="#установка-необходимых-нам-пакетов-r" id="toc-установка-необходимых-нам-пакетов-r" class="nav-link" data-scroll-target="#установка-необходимых-нам-пакетов-r">Установка необходимых нам пакетов R</a></li>
+  </ul>
+</nav>
     </div>
-  </div>
-  
-    
-  </div>
-  
-
-</header>
-
-<p><a href="https://i2z1.shinyapps.io/WiresXL/">https://i2z1.shinyapps.io/WiresXL/</a></p>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
+
+
+<p>Развертывание программного окружения анализа данных и машинного обучения на базе отечественной ОС Astra Linux 1.7</p>
+<section id="введение" class="level2">
+<h2 class="anchored" data-anchor-id="введение">Введение</h2>
+<p>Язык программирования R – мощное средство анализа данных и организации машинного обучения, в том числе используя глубокое обучение с популярными фреймворками TensorFlow и Keras. Проблема заключается в том, что в родном репозитории Astra Linux 1.7 на момент написания этого поста содержится интерпретатор языка R версии 3.5.1, что сильно ограничивает использование современных пакетов и паттернов программирования.</p>
+<p>Развертвание программного окружения предусматривает несколько этапов: 1. Установка интерпретатора языка программирования R 2. Установка интегрированной среды разработки RStudio IDE 3. Установка необходимых нам пакетов R</p>
+<p>Установку будем проводить на ОС Astra Linux 1.7 Базовая (версия 1.7.2)</p>
+</section>
+<section id="установка-интерпретатора-языка-программирования-r" class="level2">
+<h2 class="anchored" data-anchor-id="установка-интерпретатора-языка-программирования-r">Установка интерпретатора языка программирования R</h2>
+<p>Специализированных инструкций по Astra Linux в Интернете не много, однако учитывая что Astra Linux версии 1.7 основана на дистрибутиве Debian 10 (“buster”), будем руководствоваться инструкциями под эту ОС.</p>
+<p>Для начала включим возможность подключения сторонних репозиториев для Debian в нашем Astra Linux.</p>
+<p>Обновим список доступных для установки пакетов:</p>
+<pre><code>sudo apt update</code></pre>
+<p>Установим пакеты <code>apt-transport-https</code> и <code>ca-certificates</code> командой:</p>
+<pre><code>sudo apt install apt-transport-https ca-certificates</code></pre>
+<p>Установим пакет <code>debian-archive-keyring</code>:</p>
+<pre><code>sudo apt install debian-archive-keyring</code></pre>
+<p>Теперь идем на сайт R CRAN и следуем <a href="https://cran.r-project.org/bin/linux/debian/">инструкциям для Debian 10 Buster</a></p>
+<ol type="1">
+<li>Редактируем <code>/etc/apt/sources.list</code>:</li>
+</ol>
+<pre><code>sudo nano /etc/apt/sources.list</code></pre>
+<ol start="2" type="1">
+<li>добавляем внизу конфигурационного файла строку</li>
+</ol>
+<pre><code>deb http://cloud.r-project.org/bin/linux/debian buster-cran40/</code></pre>
+<ol start="3" type="1">
+<li>Импортируем ключи, которыми подписываются пакеты в добавленном нами репозитории</li>
+</ol>
+<pre><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key '95C0FAF38DB3CCAD0C080A7BDC78B2DDEABC47B7'</code></pre>
+<ol start="4" type="1">
+<li>Устанавливаем R 4.2.1</li>
+</ol>
+<pre><code>sudo apt update
+sudo apt install -t buster-cran40 r-base</code></pre>
+</section>
+<section id="установка-интегрированной-среды-разработки-rstudio-ide" class="level2">
+<h2 class="anchored" data-anchor-id="установка-интегрированной-среды-разработки-rstudio-ide">Установка интегрированной среды разработки RStudio IDE</h2>
+<ol type="1">
+<li>Переходим на сайт компании разработчика и скачиваем установочный <code>deb</code> пакет</li>
+</ol>
+<p><a href="https://www.rstudio.com/products/rstudio/download/#download">https://www.rstudio.com/products/rstudio/download/#download</a></p>
+<p>Нас интересует версия для <code>Ubuntu 18+/Debian 10+</code>.</p>
+<ol start="2" type="1">
+<li>Устанавливаем скачанный пакет:</li>
+</ol>
+<pre><code>sudo dpkg -i &lt;имя пакета&gt;</code></pre>
+<p>например</p>
+<pre><code>sudo dpkg -i ./rstudio-2022.07.1-554-amd64.deb</code></pre>
+<p>Скорее всего, установка завершится с ошибками из-за отсутсвия зависимостей пакета в системе. Установим их командой</p>
+<pre><code>sudo apt --fix-broken install</code></pre>
+</section>
+<section id="установка-необходимых-нам-пакетов-r" class="level2">
+<h2 class="anchored" data-anchor-id="установка-необходимых-нам-пакетов-r">Установка необходимых нам пакетов R</h2>
+<ol type="1">
+<li>Установим системные библиотеки, от которых скорее всего будут зависеть используемые нами пакеты (имеется в виду <code>tideverse</code>)</li>
+</ol>
+<pre><code>sudo apt install libssl-dev libxml2-dev libcurl4-openssl-dev</code></pre>
+<ol start="2" type="1">
+<li>Заходим в RStudio IDE и устанавливаем пакеты либо через <strong>консоль R</strong></li>
+</ol>
+<pre><code>install.packages("tidyverse")</code></pre>
+<p>либо через графическое окно управления пакетами (“Packages”) в Rstudio IDE.</p>
+<p>Готово!</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <!-- Yandex.Metrika counter -->
